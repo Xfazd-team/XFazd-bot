@@ -1,7 +1,7 @@
 ## XFazd-Bot🤖
 
 <p align="center">
-  <a href="https://github.com/Xfazd-team"><img title="Author" src="https://img.shields.io/badge/Author-XFazd-Team-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Xfazd-team"><img title="Author" src="https://img.shields.io/badge/Author-XFazd Team-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
 
 ## Termux Install
