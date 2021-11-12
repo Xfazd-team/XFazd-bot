@@ -392,7 +392,7 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                   yo = q.split('|')[0]
                   ye = q.split('|')[1]
                   ane = await getBuffer(`https://app.ardyapi.rf.gd/api/glitch?apikey=${ArdyKey}&text1=${yo}&text2=${ye}`)
-                  fazd.sendMessage(from, ane, image, `NIH KAK`)
+                  fazd.sendMessage(from, ane, image, {quoted: xfazd, caption: 'Nih Bang'})
                   break
                   case prefix + "shadow":
                   case prefix + "romantic":
@@ -405,10 +405,10 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                   case prefix + "lovemsg":
                   case prefix + "msggrass":
                   case prefix + "doubleheart":
-                  if (!q) return reply(`Example : ${command} fazd|bot`)
+                  if (!q) return reply(`Example : ${command} fazdbot`)
                   reply(mess.wait)
                   ani = await getBuffer(`https://app.ardyapi.rf.gd/api/${nopref ? command : command.split(prefix)[1]}?apikey=${ArdyKey}&text=${q}`)
-                  fazd.sendMessage(from, ani, image, `NIH KAK`)
+                  fazd.sendMessage(from, ani, image, {quoted: xfazd, caption: 'Nih Bang'})
                   break
                  
                   case prefix + "mode":{
