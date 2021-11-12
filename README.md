@@ -2,15 +2,22 @@
 
 ## Termux Install
 > $ pkg install nodejs git ffmpeg libwebp
+
 > $ git clone https://github.com/Xfazd-team/XFazd-bot
+
 > $ cd XFazd-bot
+
 > $ npm i
+
 > $ node main.js
 
 ## Windows/Rdp/Vps Install
 > $ git clone https://github.com/Xfazd-team/XFazd-bot
+
 > $ cd XFazd-bot
+
 > $ npm i
+
 > $ node main.js
 
 # INSTALL
