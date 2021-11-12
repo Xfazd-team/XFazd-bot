@@ -338,9 +338,6 @@ console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:m
                 // tictactoe
                 if (isTicTacToe(from, tictactoe)) tictac(body, prefix, tictactoe, from, sender, reply, mentions)
                 
-                
-                reply(budy)
-                
                 /*<--------Batas------->*/
                 switch (command) {
                   case "prefix":
