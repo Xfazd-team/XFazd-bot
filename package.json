@@ -1,0 +1,50 @@
+{
+  "name": "fazd-bot",
+  "version": "1.0.0",
+  "description": "Wes jangan di ganti ganti biar dak eror",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install pm2 -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XFazd-Team/XFazd-bot.git"
+  },
+  "keywords": [
+    "XFazd-bot"
+  ],
+  "author": "\"Fax Ardy Zyy Depin\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xfazd-team/XFazd-bot/issues"
+  },
+  "homepage": "https://github.com/Xfazd-team/XFazd-bot#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "latest",
+    "chalk": "latest",
+    "parse-ms": "^2.1.0",
+    "ms": "^2.1.3",
+    "fs-extra": "latest",
+    "performance-now": "latest",
+    "awesome-phonenumber": "^2.47.0",
+    "figlet": "latest",
+    "fluent-ffmpeg": "latest",
+    "request": "latest",
+    "axios": "latest",
+    "moment-timezone": "^0.5.33",
+    "crypto": "latest",
+    "cfonts": "latest",
+    "form-data": "^4.0.0",
+    "qrcode": "latest",
+    "imgbb-uploader": "latest",
+    "cheerio": "latest",
+    "moment": "latest",
+    "node-fetch": "^2.6.1",
+    "jsdom": "latest",
+    "fluent-ffmpeg": "latest"
+  }
+}
