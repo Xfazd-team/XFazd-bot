@@ -1,4 +1,8 @@
-#    XFazd-Bot🤖
+<div align="center">
+<img src="https://telegra.ph/file/a264e9f196af02c432417.jpg" alt="XFazd-Team" width="300" />
+</div>
+
+# XFazd-Bot🤖
 
 <p align="center">
   <a href="https://github.com/Xfazd-team"><img title="Author" src="https://img.shields.io/badge/Author-XFazd Team-red.svg?style=for-the-badge&logo=github" /></a>
