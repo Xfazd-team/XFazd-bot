@@ -9,6 +9,7 @@
   <h4 align="center">
 
 ## Termux Install
+```bash
 > $ pkg install nodejs git ffmpeg libwebp
 
 > $ git clone https://github.com/Xfazd-team/XFazd-bot
@@ -18,8 +19,10 @@
 > $ npm i
 
 > $ node main.js
+```
 
 ## Windows/Rdp/Vps Install
+```bash
 > $ git clone https://github.com/Xfazd-team/XFazd-bot
 
 > $ cd XFazd-bot
@@ -27,6 +30,7 @@
 > $ npm i
 
 > $ node main.js
+```
 
 # INSTALL
 * [Node.js](https://nodejs.org/en/)
