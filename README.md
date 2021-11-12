@@ -8,6 +8,14 @@
   <a href="https://github.com/Xfazd-team"><img title="Author" src="https://img.shields.io/badge/Author-XFazd Team-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
 
+Anda Bisa  Langsung Install Dengan Cara Klik 
+Deploy Di Bawah 👇 
+
+##### Deploy To Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Arifirazzaq2001/ISOX-BOT)
+
+_________________________
+
 ## Termux Install
 ```bash
 > $ pkg install nodejs git ffmpeg libwebp
@@ -46,5 +54,5 @@
 * [`Ardy`](https://github.com/ArdyBotzz)
 * [`Dinata`](https://github.com/Dinataaa)
 * [`Fax Botz`](https://github.com/Faxbotz)
-* [`ArifiRazzaq`](https://Github.com/Arifirazzaq2001)
+* [`ArifiRazzaq`](https://Github.com/Arifirazzaq2001) `Meng Lord`
 
