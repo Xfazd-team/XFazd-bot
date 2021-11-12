@@ -440,6 +440,11 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                       reply("Berhasil Ganti Prefix Ke "+q)
                     }
                   break
+                  
+                  case prefix + "kitabkuning": {
+                     let conn = 'Masih Jejak' 
+                     reply(conn)
+                   }
 
                   case prefix + "owner":
                   case prefix + "creator":
