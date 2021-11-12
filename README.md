@@ -53,7 +53,7 @@ _________________________
 ## Special Thanks To❤️
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`XFazd-Team`](https://github.com/Xfazd-team)
-* [`Depin`](https://github.com/finxdev)
+* [`Depin`](https://github.com/finxdev) `Manusia Tak Berotak`
 * [`Ardy`](https://github.com/ArdyBotzz)
 * [`Dinata`](https://github.com/Dinataaa) `Ohayo Wibu`
 * [`Fax Botz`](https://github.com/Faxbotz)
