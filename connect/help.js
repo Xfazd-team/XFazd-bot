@@ -8,6 +8,9 @@ module.exports.menu = (prefix, botName) => {
 *${gjls++}* ${emote} ${prefix}runtime
 *${gjls++}* ${emote} ${prefix}sc
 
+*Islam Menu*
+*${gjls++}* ${emote} ${prefix}kitabkuning
+
 *Hack Menu*
 *${gjls++}* ${emote} ${prefix}ssweb _url_
 
