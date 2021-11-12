@@ -12,7 +12,10 @@ Anda Bisa  Langsung Install Dengan Cara Klik
 Deploy Di Bawah 👇 
 
 ##### Deploy To Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Arifirazzaq2001/ISOX-BOT)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Xfazd-team/XFazd-bot)
+
+##### Deploy To Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Xfazd-team/XFazd-bot)
 
 _________________________
 
