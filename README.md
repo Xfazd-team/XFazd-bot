@@ -41,6 +41,7 @@
 
 ## Special Thanks To❤️
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
+* [`XFazd-Team`](https://github.com/Xfazd-team)
 * [`Depin`](https://github.com/finxdev)
 * [`Ardy`](https://github.com/ArdyBotzz)
 * [`Dinata`](https://github.com/Dinataaa)
