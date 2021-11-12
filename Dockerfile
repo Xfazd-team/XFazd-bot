@@ -21,4 +21,4 @@ ENV PM2_SECRET_KEY cygkc3bz1dww20f
 COPY . .
 EXPOSE 5000
 
-CMD ["pm2-runtime", "index.js"]`
+CMD ["pm2-runtime", "main.js"]`
