@@ -55,7 +55,7 @@ _________________________
 * [`XFazd-Team`](https://github.com/Xfazd-team)
 * [`Depin`](https://github.com/finxdev)
 * [`Ardy`](https://github.com/ArdyBotzz)
-* [`Dinata`](https://github.com/Dinataaa)
+* [`Dinata`](https://github.com/Dinataaa) `Ohayo Wibu`
 * [`Fax Botz`](https://github.com/Faxbotz)
 * [`ArifiRazzaq`](https://Github.com/Arifirazzaq2001) `Meng Lord`
 
