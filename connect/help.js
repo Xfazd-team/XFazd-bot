@@ -7,6 +7,7 @@ module.exports.menu = (prefix, botName) => {
 *${gjls++}* ${emote} ${prefix}owner
 *${gjls++}* ${emote} ${prefix}runtime
 *${gjls++}* ${emote} ${prefix}sc
+*${gjls++}* ${emote} ${prefix}q
 
 *Islam Menu*
 *${gjls++}* ${emote} ${prefix}kitabkuning
@@ -68,6 +69,7 @@ _*Sticker Cmd*_
 *${gjls++}* ${emote} ${prefix}mode self/public
 *${gjls++}* ${emote} ${prefix}autoread [on/off]
 *${gjls++}* ${emote} ${prefix}antidelete [on/off]
+*${gjls++}* ${emote} ${prefix}antispam [on/off]
 
 *Downloader*
 *${gjls++}* ${emote} ${prefix}tiktok link

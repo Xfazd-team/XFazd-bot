@@ -244,6 +244,17 @@ console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:m
                     return dDisplay + hDisplay + mDisplay + sDisplay;
                 }
                 
+                if (setting.antiSpam) {
+                  const { msgFilter } = require('../lib/antispam');
+                  if (!isOwner && !xfazd.key.fromMe && isCmd && msgFilter.isFiltered(from) && !isGroup) {
+                    return console.log('[', color('SPAM!!', 'red'), ']', color(moment(xfazd.messageTimestamp * 1000).format('DD/MM/YYYY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname)),
+                    reply('Spam!! Wait Cooldown 5 second!')}
+                    if (!isOwner && !xfazd.key.fromMe && isCmd && msgFilter.isFiltered(from) && isGroup) {
+                      return console.log('[', color('SPAM!!', 'red'), ']', color(moment(xfazd.messageTimestamp * 1000).format('DD/MM/YYYY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName)),
+                      reply('Spam!! Wait Cooldown 5 second!')}
+                    msgFilter.addFilter(from)
+                }
+                
                 if (budy.startsWith("$")) {
                   if (!budy.slice(2) || !isOwner) return
                   console.log(color("[EXEC] FROM OWNER"))
@@ -252,6 +263,7 @@ console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:m
                     reply(stdout)
                   })
                 }
+                
                 
                 if (budy.startsWith(">")) {
                   if (!budy.slice(2) || !isOwner) return
@@ -361,11 +373,11 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                     if (args.length < 2) return reply(`Masukkan options : [on/off]`)
                     if (q == "on") {
                       setting.autoRead = true
-                      fs.writeFileSync("./setting.json", JSON.stringify(setting))
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
                       reply("Berhasil Mengubah Auto Read Ke On")
                     } else if (q == "off") {
                       setting.autoRead = false
-                      fs.writeFileSync("./setting.json", JSON.stringify(setting))
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
                       reply("Berhasil Mengubah Auto Read Ke Off")
                     } else {
                       reply(`Masukkan options : [on/off]`)
@@ -376,12 +388,27 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                     if (args.length < 2) return reply(`Masukkan options : [on/off]`)
                     if (q == "on") {
                       setting.antiDelete = true
-                      fs.writeFileSync("./setting.json", JSON.stringify(setting))
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
                       reply("Berhasil Mengubah Antidelete Ke On")
                     } else if (q == "off") {
                       setting.antiDelete = false
-                      fs.writeFileSync("./setting.json", JSON.stringify(setting))
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
                       reply("Berhasil Mengubah Antidelete Ke Off")
+                    } else {
+                      reply(`Masukkan options : [on/off]`)
+                    }
+                  break
+                  case prefix + "antispam":
+                    if (!isOwner) return reply(mess.OnlyOwner)
+                    if (args.length < 2) return reply(`Masukkan options : [on/off]`)
+                    if (q == "on") {
+                      setting.antiSpam = true
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
+                      reply("Berhasil Mengubah Antispam Ke On")
+                    } else if (q == "off") {
+                      setting.antiSpam = false
+                      fs.writeFileSync("./setting.json", JSON.stringify(setting, null, "\t"))
+                      reply("Berhasil Mengubah Antispam Ke Off")
                     } else {
                       reply(`Masukkan options : [on/off]`)
                     }
@@ -445,6 +472,14 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
                      let conn = 'Masih Jejak' 
                      reply(conn)
                    }
+                   break
+
+case prefix + 'q': 
+if (!m.quoted) return reply('reply message!')
+let qse = fazd.serializeM(await m.getQuotedObj())
+if (!qse.quoted) return reply('the message you replied does not contain a reply!')
+await qse.quoted.copyNForward(m.chat, true)
+break
 
                   case prefix + "owner":
                   case prefix + "creator":
