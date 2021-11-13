@@ -55,6 +55,7 @@ _________________________
 	"ArdyKey": "Beli"
 }
 ```
+- Setting edit to [this section](https://github.com/Xfazd-team/XFazd-bot/blob/main/setting.json)
 
 ## Bot Uji coba di bawah
 * [Fazd-Bot](https://wa.me/message/ZOVLFZKWHN7HF1)
