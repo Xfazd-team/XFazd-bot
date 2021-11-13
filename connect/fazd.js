@@ -444,7 +444,7 @@ Current Prefix : ${multi ? "•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-," : no
 
             case prefix + "menu":
             case prefix + "help":
-                fazd.sendMessage(from, await fs.readFileSync(setting.pathImg), image, {
+                fazd.sendMessage(from, await getBuffer("https://i.ibb.co/fkqy1XK/Fazd.jpg"), image, {
                     quoted: fakeToko("Fazd Bot", fs.readFileSync(setting.pathImg)),
                     caption: menu(prefix, botName)
                 })
