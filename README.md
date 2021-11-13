@@ -43,6 +43,22 @@ _________________________
 > $ node main.js
 ```
 
+## Setting Bot
+```bash
+{
+	"sesionName": "fazd",
+	"botName": "Fazd-bot",
+	"antiDelete": true,
+	"autoRead": true,
+	"antiSpam": true,
+	"pathImg": "./media/Fazd.jpg",
+	"ArdyKey": "Beli"
+}
+```
+
+## Bot Uji coba di bawah
+* [Fazd-Bot](https://wa.me/message/ZOVLFZKWHN7HF1)
+
 # INSTALL
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
