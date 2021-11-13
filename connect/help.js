@@ -74,5 +74,7 @@ _*Sticker Cmd*_
 *Downloader*
 *${gjls++}* ${emote} ${prefix}tiktok link
 *${gjls++}* ${emote} ${prefix}tiktoknowm link
+
+Power By *Fazd-Bot*
 `
 }
