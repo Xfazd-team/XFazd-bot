@@ -46,13 +46,14 @@ _________________________
 ## Setting Bot
 ```bash
 {
-	"sesionName": "fazd",
-	"botName": "Fazd-bot",
+	"sesionName": "fazd", <- Nama session Anda
+	"botName": "Fazd-bot", <- Nama Bot Anda
 	"antiDelete": true,
 	"autoRead": true,
 	"antiSpam": true,
-	"pathImg": "./media/Fazd.jpg",
-	"ArdyKey": "Beli"
+	"pathImg": "./media/Fazd.jpg", <- Image anda
+	"ArdyKey": "YourApikey", <- Your apikey buy to ardyapi
+        "imgUrl": "https://i.ibb.co/fkqy1XK/Fazd.jpg" <- Image to url anda
 }
 ```
 - Setting edit to [this section](https://github.com/Xfazd-team/XFazd-bot/blob/main/setting.json)
