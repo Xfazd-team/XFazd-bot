@@ -5,5 +5,5 @@
 	"autoRead": true,
 	"antiSpam": true,
 	"pathImg": "./media/Fazd.jpg",
-	"ArdyKey": "Beli"
+	"ArdyKey": "YourApikey" //get in https://app.ardyapi.rf.gd/
 }
